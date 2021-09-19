@@ -4,7 +4,6 @@ import Product from "./Product";
 
 function Category(props) {
   const { category, products } = props;
-  console.log(props);
   return (
     <div key={category?.id} className="category">
       {products ? (
@@ -15,7 +14,11 @@ function Category(props) {
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src={category?.image} alt="ShopyMe" />
+              <img
+                class="d-block w-100"
+                src={category?.image}
+                alt={category?.name}
+              />
             </div>
           </div>
         </div>
@@ -27,7 +30,7 @@ function Category(props) {
 
       <div>
         <Link to={`/categories/${category?.id}`}>
-          <p>{category?.name}</p>
+          <p className="category-name">{category?.name}</p>
         </Link>
       </div>
       {products

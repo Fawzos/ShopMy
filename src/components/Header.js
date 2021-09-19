@@ -7,12 +7,18 @@ function Header() {
         <div className="row">
           <div className="col-sm">
             <i className="fas fa-phone-square-alt"></i>
-            <span>01062530292</span>
-            <i className="fas fa-envelope-square"></i>
-            shopy@gmail.com
+            <span style={{ marginRight: 10, marginLeft: 10 }}>
+              {" "}
+              01062530292{" "}
+            </span>
+            <i className="fas fa-envelope-square"> </i>
+            <span style={{ marginRight: 10, marginLeft: 10 }}>
+              {" "}
+              shopy@gmail.com
+            </span>
           </div>
           <div className="col-sm">
-            <span>Let's work</span>
+            <span className="ml">Hello my friends</span>
           </div>
         </div>
       </div>

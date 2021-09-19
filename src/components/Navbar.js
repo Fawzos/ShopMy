@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container">
-        <button
+        <Link
           className="navbar-brand"
           onClick={() =>
             handleNavigation({
@@ -21,7 +21,7 @@ function Navbar() {
         >
           <span>Shopy</span>
           <span>Me</span>
-        </button>
+        </Link>
 
         <button
           className="navbar-toggler"

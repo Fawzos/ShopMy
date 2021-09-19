@@ -7,6 +7,8 @@
 
 .header span {
   color: #bfc6c9;
+  margin-left: 250px;
+
 }
 /* End Header */
 
@@ -126,4 +128,8 @@ img.medium {
   /* max-width: 29rem; */
   width: 200px;
 }
-
+.category-name {
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: larger;
+}
