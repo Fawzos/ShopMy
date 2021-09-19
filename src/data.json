@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "_id": "1",
+      "name": "Nike Shirt",
+      "price": "$20",
+      "size": "XL",
+      "category": {
+        "_id": "1",
+        "name": "shirts"
+      }
+    },
+    {
+      "_id": "2",
+      "name": "Addisa Shirt",
+      "price": "$30",
+      "size": "L",
+      "category": {
+        "_id": "2",
+        "name": "shirts"
+      }
+    },
+    {
+      "_id": "3",
+      "name": "Pumma Shirt",
+      "price": "$15",
+      "size": "S",
+      "category": {
+        "_id": "1",
+        "name": "shirts"
+      }
+    },
+
+    {
+      "_id": "1",
+      "name": "Nike trousers",
+      "price": "$200",
+      "size": "L",
+      "category": {
+        "_id": "2",
+        "name": "trousers"
+      }
+    },
+    {
+      "_id": "2",
+      "name": "Addids trousers",
+      "price": "$250",
+      "size": "S",
+      "category": {
+        "_id": "2",
+        "name": "trousers"
+      }
+    },
+    {
+      "_id": "3",
+      "name": "Pumma trousers",
+      "price": "$120",
+      "size": "XS",
+      "category": {
+        "_id": "2",
+        "name": "trousers"
+      }
+    },
+    {
+      "_id": "1",
+      "name": "Nike Shoe",
+      "price": "$200",
+      "size": "S",
+      "category": {
+        "_id": "3",
+        "name": "shoes"
+      }
+    },
+    {
+      "_id": "2",
+      "name": "Addids shoes",
+      "price": "$200",
+      "size": "L",
+      "category": {
+        "_id": "3",
+        "name": "shoes"
+      }
+    },
+    {
+      "_id": "3",
+      "name": "Pumma shoes",
+      "price": "$200",
+      "size": "L",
+      "category": {
+        "_id": "3",
+        "name": "shoes"
+      }
+    },
+    {
+      "_id": "3",
+      "name": "Pumma shoes",
+      "price": "$200",
+      "size": "L",
+      "category": {
+        "_id": "3",
+        "name": "shoes"
+      }
+    }
+  ]
+}

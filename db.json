@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "id":"1",
+      "name":"shirts",
+      "image": "https://mms-images-prod.imgix.net/mms/images/catalog/b514e0f66ff205753fe387aa57e0fa2d/styles/116200/catalog_detail_image_large.jpg?ixlib=rails-2.1.4&w=700&h=700&fit=fill&bg=ffffff&dpr=1&q=60&fm=pjpg&auto=compress&trim=auto&trimmd=0",
+      "products":[{
+        "id": "1",
+        "name": "Nike Shirt",
+        "price": "$20",
+        "size": "XL"
+      },
+      {
+        "id": "2",
+        "name": "Addidas Shirt",
+        "price": "$30",
+        "size": "L"
+      },
+      {
+        "id": "3",
+        "name": "Pumma Shirt",
+        "price": "$15",
+        "size": "S"
+      }]
+  
+         },
+    {
+      "id":"2",
+      "name":"trousers",
+      "image": "https://rohan.imgix.net/product/05920P05.jpg?w=2500&auto=format&q=77",
+      "products":[{
+        "id": "1",
+        "name": "Nike trousers",
+        "price": "$200",
+        "size": "L"
+      
+      },
+      {
+        "id": "2",
+        "name": "Addids trousers",
+        "price": "$250",
+        "size": "S"
+      
+      },
+      {
+        "id": "3",
+        "name": "Pumma trousers",
+        "price": "$120",
+        "size": "XS"
+       
+      }
+     ]
+    },
+    {
+      "id":"3",
+      "name":"shoes",
+      "image": "https://assets.ajio.com/medias/sys_master/root/h5a/h59/13018715881502/-1117Wx1400H-460342492-blue-MODEL.jpg",
+      "products":[{
+        "id": "1",
+        "name": "Nike Shoe",
+        "price": "$200",
+        "size": "S"
+     
+      },
+      {
+        "id": "2",
+        "name": "Addids shoes",
+        "price": "$200",
+        "size": "L"
+     
+      },
+      {
+        "id": "3",
+        "name": "Pumma shoes",
+        "price": "$200",
+        "size": "L"
+      },
+      {
+        "id": "3",
+        "name": "Pumma shoes",
+        "price": "$200",
+        "size": "L"
+      }]
+    }
+  ]
+}
